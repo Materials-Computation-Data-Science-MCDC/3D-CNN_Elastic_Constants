@@ -5,7 +5,7 @@ Create a new conda environment and please follow instructions for installing ten
 
 ## Training:
 
-A sample code for data preparation and training of the 3D convolutional neural network is given in the notebook "Training.ipynb" within the "training" folder. There are three subfolders here, namely "losses", "results", and "weights". The "losses" folder contains csv files of the training and validation losses, as well as the training rate. The "results" folder contains csv files of the predictions on the training, testing, and validation datapoints. The "weights" folder contains the saved model weights after training has finished. These weights can be used in the "Training.ipynb" notebook to predict on unseen data. Training data is also provided in the form of the "merged_array.npy" (all 3D images in one merged numpy array) and "merged_csv.csv" (all DFT properties for each structure in "merged_array.npy").
+A sample code for data preparation and training of the 3D convolutional neural network is given in the notebook "Training.ipynb" within the "training" folder. There are three subfolders here, namely "losses", "results", and "weights". The "losses" folder contains csv files of the training and validation losses, as well as the training rate. The "results" folder contains csv files of the predictions on the training, testing, and validation datapoints. The "weights" folder contains the saved model weights after training has finished. These weights can be used in the "Training.ipynb" notebook to predict on unseen data. The DFT data for all properties for all structures in this study are found in "merged_csv.csv". Training data can be made available upon reasonable request.
 
 
 ## Image preparation:
